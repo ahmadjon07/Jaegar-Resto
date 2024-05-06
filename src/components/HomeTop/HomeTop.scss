@@ -1,0 +1,23 @@
+.home__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    padding: 24px;
+    .top__search{
+        border: 1px solid #393c49;
+        border-radius: 8px;
+        background-color: #393c49;
+        padding: 14px;
+        color: #fff;
+        input{
+            background-color: transparent;
+            outline: none;
+            border: none;
+            margin-left: 10px;
+            color: white;
+            width: 220px;
+        }
+    }
+}
